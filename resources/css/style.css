@@ -1,19 +1,44 @@
-* {
-  font-family: Helvetica, Arial, sans-serif;
+/* header */
+
+header {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
 
-
-h1 {
-  color: SeaGreen;
+.logo {
+  border: 1px solid black;
+  display: inline-flex;
+  align-items: center
 }
 
-
-p,
-li {
-  font-size: 18px;
+.logo img {
+  margin-left: 20px;
 }
 
+.logo h1 {
+  margin-left: 10px;
+}
 
+.nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+header h1,
 a {
-  text-decoration: none;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
 }
+
+header a {
+  text-decoration: underline;
+  color: black;
+  margin: 0 10px;
+}
+
+/* Main */
