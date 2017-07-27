@@ -42,3 +42,43 @@ header a {
 }
 
 /* Main */
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border: 1px solid black;
+  width: 1250px;
+  margin: 0 auto;
+  padding: 25px 25px 0 0;
+}
+
+.large {
+  flex-direction: column;
+  width: 630px;
+  border: 2px solid black;
+}
+
+.large div {
+  border: 1px solid black;
+}
+
+.medium {
+  flex-direction: column;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.medium div {
+  border: 1px solid black;
+}
+
+.small {
+  flex-direction: column;
+  width: 240px;
+  border: 2px solid black;
+}
+
+.small div {
+  border: 1px solid black;
+}
