@@ -13,7 +13,6 @@ header {
 }
 
 .logo {
-  border: 1px solid black;
   display: inline-flex;
   align-items: center
 }
@@ -65,7 +64,6 @@ h3 {
   top: 73px;
   justify-content: space-between;
   align-content: center;
-  border: 1px solid black;
   width: 1250px;
   margin: 0 auto;
   padding: 25px 25px 0 0;
@@ -74,31 +72,16 @@ h3 {
 .large {
   flex-direction: column;
   width: 630px;
-  border: 2px solid black;
-}
-
-.large div {
-  border: 1px solid black;
 }
 
 .medium {
   flex-direction: column;
   width: 300px;
-  border: 2px solid black;
-}
-
-.medium div {
-  border: 1px solid black;
 }
 
 .small {
   flex-direction: column;
   width: 240px;
-  border: 2px solid black;
-}
-
-.small div {
-  border: 1px solid black;
 }
 
 .mainArticle {
@@ -147,4 +130,34 @@ h3 {
 .story3 h3 {
   color: white;
   margin-top: 0;
+}
+
+.columns2 {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.rows2left {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  margin-left: 15px;
+}
+
+.right {
+  margin-right: 15px;
+}
+
+.small h3 {
+  font-size: 16px;
+  font-weight: bold
+}
+
+.small span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
