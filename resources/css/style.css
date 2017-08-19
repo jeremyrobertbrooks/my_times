@@ -89,6 +89,7 @@ h3 {
   background-image: url(../img-story-main.png);
   display: flex;
   height: 300px;
+  align-items: center;
 }
 
 .mainArticle h3 {
@@ -97,12 +98,15 @@ h3 {
   font-size: 40px;
   color: white;
   margin-top: 0;
+  margin-left: 20px;
 }
 
 .story1 {
   background-image: url(../img-story-1.png);
   height: 300px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .story1 h3 {
@@ -115,6 +119,8 @@ h3 {
   background-image: url(../img-story-2.png);
   height: 300px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .story2 h3 {
@@ -126,11 +132,14 @@ h3 {
   background-image: url(../img-story-3.png);
   height: 300px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .story3 h3 {
   color: white;
   margin-top: 0;
+  align-items: center;
 }
 
 .columns2 {
